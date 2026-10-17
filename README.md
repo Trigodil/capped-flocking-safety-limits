@@ -23,7 +23,8 @@ pip install -r requirements.txt
 | Safe ring equilibria (Thm. 5, Sec. VII-D) | `python exp_rings.py reference 10` | stdout |
 | Ring stability under perturbation (Sec. VII-D) | `python exp_rings_stability.py` | stdout |
 | Critical size N*, 3D (Remark 9) | `python exp_crush3d.py 1 1.5 2 3 4` | `crush_reference_3d.npy`, `crush_reference_3d.log` |
-| Fig. 2 | `python plot_crush.py` | `fig_crush.png` |
+| Fig. 2 | `python plot_crush.py` | `fig_crush.pdf` |
+| 3D pack figure and N* plot (Sec. VII-D) | `python plot_crush3d.py` | `fig_pack3d.pdf`, `fig_crush3d.pdf` |
 
 ## Files
 

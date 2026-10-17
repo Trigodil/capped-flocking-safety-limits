@@ -58,3 +58,4 @@ ax.legend(fontsize=10, handlelength=1.5, borderpad=0.3, labelspacing=0.25, handl
 plot_style.bold_ticks(ax)
 fig.tight_layout()
 fig.savefig("fig_crush.png")
+fig.savefig("fig_crush.pdf")
