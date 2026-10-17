@@ -1,8 +1,8 @@
-# Safety Limits of Capped Potential-Game Flocking: numerical experiments
+# Capped Repulsion Limits the Size of Safely Separated Swarms in Potential-Game Flocking: numerical experiments
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23439952.svg)](https://doi.org/10.5281/zenodo.23439952)
 
-Code and data for the numerical results of "Safety Limits of Capped Potential-Game Flocking" (A. Sreejith).
+Code and data for the numerical results of "Capped Repulsion Limits the Size of Safely Separated Swarms in Potential-Game Flocking" (A. Sreejith).
 All experiments use the Flockwork law in code/swarm_model.py with two parameter sets:
 reference (Olfati-Saber 2006, Virágh et al. 2014) and implementation (deployed controller defaults).
 

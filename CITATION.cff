@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite it as below."
-title: "Safety Limits of Capped Potential-Game Flocking: numerical experiments"
+title: "Capped Repulsion Limits the Size of Safely Separated Swarms in Potential-Game Flocking: numerical experiments"
 authors:
   - family-names: Sreejith
     given-names: Ayush
