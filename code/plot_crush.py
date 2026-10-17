@@ -39,7 +39,7 @@ fig, ax = plt.subplots(figsize=(8, 6))
 qq = np.linspace(0.9, 4.4, 200)
 for name, color, label in [("reference", plot_style.BLUE, "Reference"),
                            ("implementation", plot_style.ORANGE, "Implementation")]:
-    res = np.load(f"crush_{name}_spread.npy")
+    res = np.load(sm.RESULTS / f"crush_{name}_spread.npy")
     q, n = res[:, 0], res[:, 1]
     ok = ~np.isnan(n)
     slope = np.polyfit(np.log(q[ok]), np.log(n[ok]), 1)[0]
@@ -57,5 +57,5 @@ ax.set_ylabel(r"$N^*$")
 ax.legend(fontsize=10, handlelength=1.5, borderpad=0.3, labelspacing=0.25, handletextpad=0.4)
 plot_style.bold_ticks(ax)
 fig.tight_layout()
-fig.savefig("fig_crush.png")
-fig.savefig("fig_crush.pdf")
+fig.savefig(sm.FIGURES / "fig_crush.png")
+fig.savefig(sm.FIGURES / "fig_crush.pdf")

@@ -68,7 +68,7 @@ if __name__ == "__main__":
     name = sys.argv[1] if len(sys.argv) > 1 else "reference"
     T = float(sys.argv[2]) if len(sys.argv) > 2 else 100.0
     res = sweep(name, ratios=[1.0, 1.5, 2.0, 3.0, 4.0], T=T)
-    np.save(f"crush_{name}_spread.npy", res)
+    np.save(sm.RESULTS / f"crush_{name}_spread.npy", res)
     ok = ~np.isnan(res[:, 1])
     slope = np.polyfit(np.log(res[ok, 0]), np.log(res[ok, 1]), 1)[0]
     print(f"log-log slope N* vs C/v_nav: {slope:.2f}")

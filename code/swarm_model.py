@@ -1,7 +1,12 @@
 """Idealized Flockwork swarm: pair force f, potential w, potential Phi and control law u.
 Instances 'implementation' (deployed defaults) and 'reference' (Olfati-Saber 2006, Viragh et al. 2014).
 Call use(name) first; it swaps the module globals in place."""
+from pathlib import Path
+
 import numpy as np
+
+RESULTS = Path(__file__).resolve().parent.parent / "results"
+FIGURES = Path(__file__).resolve().parent.parent / "figures"
 
 INSTANCES = {
     "implementation": dict(

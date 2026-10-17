@@ -69,4 +69,4 @@ if __name__ == "__main__":
         n = critical_n(q, pool)
         out.append((q, np.nan if n is None else n))
         print(f"  -> N*={n}  ({time.time() - t0:.0f}s)", flush=True)
-        np.save("crush_reference_3d.npy", np.array(out))
+        np.save(sm.RESULTS / "crush_reference_3d.npy", np.array(out))

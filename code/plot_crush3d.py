@@ -1,7 +1,6 @@
 """3D crush figures: a settled pack at C/v_nav = 3, N = 192, and measured N* vs C/v_nav with the d = 3 bound.
 The pack is the seed-1 run of exp_crush3d.py, cached in pack3d_q3_n192.npy."""
 import math
-import os
 
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
@@ -12,11 +11,11 @@ import plot_style
 import swarm_model as sm
 
 plot_style.apply()
-Q, N, SEED, CACHE = 3.0, 192, 1, "pack3d_q3_n192.npy"
+Q, N, SEED, CACHE = 3.0, 192, 1, sm.RESULTS / "pack3d_q3_n192.npy"
 
 
 def settled_pack():
-    if os.path.exists(CACHE):
+    if CACHE.exists():
         return np.load(CACHE)
     e3.use_ratio(Q)
     h = min(0.005, 0.5 / (sm.K_NAV + 12 * sm.SIGMA))
@@ -78,10 +77,10 @@ cb = fig.colorbar(sc, ax=ax, shrink=0.45, pad=0.08)
 cb.set_label("distance to goal (m)", fontsize=13)
 cb.ax.tick_params(labelsize=11)
 fig.tight_layout()
-fig.savefig("fig_pack3d.png")
-fig.savefig("fig_pack3d.pdf")
+fig.savefig(sm.FIGURES / "fig_pack3d.png")
+fig.savefig(sm.FIGURES / "fig_pack3d.pdf")
 
-res = np.load("crush_reference_3d.npy")
+res = np.load(sm.RESULTS / "crush_reference_3d.npy")
 q, n = res[:, 0], res[:, 1]
 ok = ~np.isnan(n)
 slope = np.polyfit(np.log(q[ok][1:]), np.log(n[ok][1:]), 1)[0]
@@ -99,5 +98,5 @@ bx.set_ylabel(r"$N^*$")
 bx.legend()
 plot_style.bold_ticks(bx)
 fig.tight_layout()
-fig.savefig("fig_crush3d.png")
-fig.savefig("fig_crush3d.pdf")
+fig.savefig(sm.FIGURES / "fig_crush3d.png")
+fig.savefig(sm.FIGURES / "fig_crush3d.pdf")
