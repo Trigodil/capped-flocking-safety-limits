@@ -17,7 +17,7 @@ pip install -r requirements.txt
 - results: saved sweeps (.npy) and run logs.
 - figures: paper figures as PDF with PNG previews.
 
-## Paper results
+## Results
 
 | Result | Command | Output |
 |---|---|---|
