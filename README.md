@@ -1,4 +1,5 @@
 # Safety Limits of Capped Potential-Game Flocking: numerical experiments
+n[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23439952.svg)](https://doi.org/10.5281/zenodo.23439952)
 
 Code and data for the numerical results of "Safety Limits of Capped Potential-Game Flocking" (A. Sreejith).
 All experiments use the Flockwork law in code/swarm_model.py with two parameter sets:
