@@ -30,3 +30,18 @@
     N=128 capped 0.00 min gap 4.802 |u|max 3.3e-04 T<=300
     N=192 capped 0.75 min gap 2.527 |u|max 2.4e-04 T<=200
   -> N*=192  (2273s)
+  C/v_nav= 4.0 r_c=4.637
+    N=  8 capped 0.00 min gap 5.473 |u|max 1.6e-07 T<=100
+    N= 12 capped 0.00 min gap 5.378 |u|max 9.0e-13 T<=100
+    N= 16 capped 0.00 min gap 5.147 |u|max 2.5e-05 T<=100
+    N= 24 capped 0.00 min gap 5.069 |u|max 5.7e-07 T<=100
+    N= 32 capped 0.00 min gap 5.029 |u|max 2.2e-04 T<=150
+    N= 48 capped 0.00 min gap 4.971 |u|max 6.9e-04 T<=150
+    N= 64 capped 0.00 min gap 4.867 |u|max 3.1e-04 T<=100
+    N= 96 capped 0.00 min gap 4.841 |u|max 4.3e-04 T<=150
+    N=128 capped 0.00 min gap 4.790 |u|max 2.7e-04 T<=100
+    N=192 capped 0.00 min gap 4.717 |u|max 1.1e-05 T<=150
+    N=256 capped 0.00 min gap 4.749 |u|max 4.1e-04 T<=150
+    N=384 capped 0.00 min gap 4.663 |u|max 5.3e-05 T<=200
+    N=512 capped 0.50 min gap 2.896 |u|max 5.5e-04 T<=150
+  -> N*=512
