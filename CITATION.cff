@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Safety Limits of Capped Potential-Game Flocking: numerical experiments"
+authors:
+  - family-names: Sreejith
+    given-names: Ayush
+    email: ayushsreejith.research@gmail.com
+    affiliation: Independent Researcher
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/Trigodil/capped-flocking-safety-limits"
+keywords:
+  - flocking
+  - potential games
+  - multi-agent systems
+  - collision avoidance
