@@ -1,0 +1,4 @@
+reference C/v=4.0 N=75 seed=0: Phi increases 0, max degree 10, h=1.79e-03, 2/L=4.31e-03
+reference C/v=3.0 N=60 seed=0: Phi increases 0, max degree 9, h=2.79e-03, 2/L=7.44e-03
+implementation C/v=3.0 N=48 seed=0: Phi increases 0, max degree 18, h=4.88e-04, 2/L=6.51e-04
+implementation C/v=1.0 N=15 seed=0: Phi increases 0, max degree 14, h=8.67e-04, 2/L=1.49e-03

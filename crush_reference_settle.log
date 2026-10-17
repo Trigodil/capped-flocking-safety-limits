@@ -1,0 +1,7 @@
+C/v=1.5 N=8 capped 0.25 | [T=50 u=4.3e-05 gap=5.16 cap=0] [T=50 u=4.1e-06 gap=5.39 cap=0] [T=50 u=4.8e-05 gap=5.16 cap=0] [T=50 u=1.4e-05 gap=1.32 cap=1]
+C/v=3.0 N=24 capped 0.00 | [T=50 u=3.9e-04 gap=5.04 cap=0] [T=100 u=6.4e-06 gap=4.96 cap=0] [T=100 u=8.2e-06 gap=4.80 cap=0] [T=150 u=5.1e-06 gap=4.93 cap=0]
+C/v=3.0 N=48 capped 0.25 | [T=100 u=2.8e-06 gap=4.93 cap=0] [T=100 u=1.7e-05 gap=4.78 cap=0] [T=100 u=4.1e-05 gap=2.35 cap=1] [T=100 u=2.9e-04 gap=4.76 cap=0]
+C/v=3.0 N=60 capped 0.50 | [T=200 u=2.7e-04 gap=4.77 cap=0] [T=100 u=9.2e-05 gap=4.76 cap=0] [T=100 u=1.4e-05 gap=2.37 cap=1] [T=100 u=2.6e-04 gap=1.48 cap=1]
+C/v=4.0 N=24 capped 0.00 | [T=50 u=3.9e-04 gap=5.04 cap=0] [T=100 u=6.4e-06 gap=4.96 cap=0] [T=100 u=8.2e-06 gap=4.80 cap=0] [T=150 u=5.1e-06 gap=4.93 cap=0]
+C/v=4.0 N=60 capped 0.00 | [T=150 u=3.2e-05 gap=4.80 cap=0] [T=100 u=9.2e-05 gap=4.76 cap=0] [T=100 u=3.5e-05 gap=4.70 cap=0] [T=100 u=3.3e-05 gap=4.82 cap=0]
+C/v=4.0 N=75 capped 0.50 | [T=100 u=6.2e-05 gap=4.69 cap=0] [T=150 u=2.4e-04 gap=3.31 cap=1] [T=100 u=3.1e-04 gap=3.25 cap=1] [T=100 u=2.3e-05 gap=4.71 cap=0]

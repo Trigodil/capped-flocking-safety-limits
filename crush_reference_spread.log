@@ -1,0 +1,50 @@
+  C/v_nav= 1.0 r_c=5.276 sigma*=3.8
+    N=  4 capped 0.00 min gap 5.550 |u|max 3.7e-09
+    N=  6 capped 0.50 min gap 2.843 |u|max 8.1e-10
+  -> N*=6  (65s)
+  C/v_nav= 1.5 r_c=5.065 sigma*=5.9
+    N=  4 capped 0.00 min gap 5.550 |u|max 3.7e-09
+    N=  6 capped 0.00 min gap 5.299 |u|max 8.1e-10
+    N=  8 capped 0.25 min gap 1.300 |u|max 1.8e-02
+    N= 10 capped 0.25 min gap 2.255 |u|max 4.3e-10
+    N= 12 capped 1.00 min gap 2.131 |u|max 4.9e-07
+  -> N*=12  (182s)
+  C/v_nav= 2.0 r_c=4.923 sigma*=8.4
+    N=  4 capped 0.00 min gap 5.550 |u|max 3.7e-09
+    N=  6 capped 0.00 min gap 5.299 |u|max 8.3e-04
+    N=  8 capped 0.00 min gap 5.158 |u|max 6.5e-10
+    N= 10 capped 0.00 min gap 5.108 |u|max 1.2e-07
+    N= 12 capped 0.00 min gap 5.116 |u|max 7.6e-05
+    N= 15 capped 0.00 min gap 5.101 |u|max 2.1e-08
+    N= 19 capped 0.50 min gap 1.011 |u|max 8.9e-05
+  -> N*=19  (1668s)
+  C/v_nav= 3.0 r_c=4.744 sigma*=14.9
+    N=  4 capped 0.00 min gap 5.550 |u|max 3.7e-09
+    N=  6 capped 0.00 min gap 5.299 |u|max 8.2e-04
+    N=  8 capped 0.00 min gap 5.158 |u|max 6.5e-10
+    N= 10 capped 0.00 min gap 5.108 |u|max 1.2e-07
+    N= 12 capped 0.00 min gap 5.116 |u|max 7.6e-05
+    N= 15 capped 0.00 min gap 5.101 |u|max 2.1e-08
+    N= 19 capped 0.00 min gap 4.861 |u|max 9.9e-05
+    N= 24 capped 0.00 min gap 4.802 |u|max 2.0e-03
+    N= 30 capped 0.00 min gap 4.758 |u|max 2.5e-04
+    N= 38 capped 0.00 min gap 4.830 |u|max 4.9e-06
+    N= 48 capped 0.25 min gap 2.347 |u|max 2.9e-04
+    N= 60 capped 0.50 min gap 1.480 |u|max 1.9e-01
+  -> N*=60  (434s)
+  C/v_nav= 4.0 r_c=4.637 sigma*=23.1
+    N=  4 capped 0.00 min gap 5.550 |u|max 3.7e-09
+    N=  6 capped 0.00 min gap 5.299 |u|max 8.3e-04
+    N=  8 capped 0.00 min gap 5.158 |u|max 6.5e-10
+    N= 10 capped 0.00 min gap 5.108 |u|max 1.2e-07
+    N= 12 capped 0.00 min gap 5.116 |u|max 7.6e-05
+    N= 15 capped 0.00 min gap 5.101 |u|max 2.1e-08
+    N= 19 capped 0.00 min gap 4.861 |u|max 9.6e-05
+    N= 24 capped 0.00 min gap 4.802 |u|max 2.0e-03
+    N= 30 capped 0.00 min gap 4.869 |u|max 2.5e-04
+    N= 38 capped 0.00 min gap 4.830 |u|max 4.9e-06
+    N= 48 capped 0.00 min gap 4.759 |u|max 2.8e-04
+    N= 60 capped 0.00 min gap 4.702 |u|max 1.5e-01
+    N= 75 capped 0.50 min gap 3.250 |u|max 2.0e-03
+  -> N*=75  (768s)
+log-log slope N* vs C/v_nav: 1.93

@@ -1,0 +1,5 @@
+h=   2 ms  frac inc=0.0000  late frac inc=0.000 [0.000,0.000]
+h=   5 ms  frac inc=0.0000  late frac inc=0.000 [0.000,0.000]
+h=  10 ms  frac inc=0.3892  late frac inc=0.500 [0.500,0.500]
+h=  20 ms  frac inc=0.4018  late frac inc=0.500 [0.499,0.501]
+h=  40 ms  frac inc=0.4064  late frac inc=0.497 [0.471,0.519]
